@@ -19,7 +19,7 @@ function Contact() {
               <div className="col-xl-8 col-lg-11 col-md-12">
                 <div className="hero__caption hero__caption2">
                   <h1 data-animation="bounceIn" data-delay="0.2s">
-                    Contact us
+                    Kontak Kami
                   </h1>
                   {/* breadcrumb Start*/}
                   <nav aria-label="breadcrumb">

@@ -5,7 +5,6 @@ function Login() {
   return (
     <Fragment>
         <>
-  <Menu />
   <main className="login-body" data-vide-bg="assets/img/BackgroundLogin.jpg">
     {/* Login Admin */}
     <form className="form-default" action="BackgroundLogin.jpg" method="POST">
@@ -26,13 +25,9 @@ function Login() {
           <input type="password" name="password" placeholder="Password" />
         </div>
         <div className="col-2 mx-auto pt-30">
-          <button
-            type="button"
-            className="btn btn-success btn-Logiin"
-            onclick="window.location.href='UserLogIn.html'"
-          >
-            Login/Masuk
-          </button>
+        <a href="/Index2" className="btn btn3">
+          Masuk
+        </a>
         </div>
         {/* Forget Password */}
         {/* <a href="#" class="forget">Forget Password</a> */}

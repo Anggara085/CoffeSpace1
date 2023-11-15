@@ -22,30 +22,20 @@ function Menu(){
                         <div className="main-menu d-none d-lg-block">
                             <nav>
                             <ul id="navigation">
-                                <li className="active">
-                                <Link to="/Index2">Beranda</Link>
-                                </li>
+                                
                                 <li>
-                                <Link to="/About">Tentang</Link>
+                                <Link to="/Contact"></Link>
                                 </li>
-                                <li>
-                                <Link to="/Galeri">Artikel</Link>
-                                </li>
-                                <li>
-                                <Link to="/Contact">Kontak</Link>
-                                </li>
-                                <li>
-                                <Link to="/Kursus">Akademi Kopi</Link>
-                                </li>
-                                <li>
-                                <a href="/">Keluar</a>
-                                </li>
-                                <li>
-                                <a href="/Profile">Profil</a>
-                                </li>
-                                <a href="profile.html">
-                                <img src="assets/img/gallery/profil.png" alt="" />
+                                <li className="button-header margin-left ">
+                                <a href="/Gabung" className="btn">
+                                    Gabung
                                 </a>
+                                </li>
+                                <li className="button-header">
+                                <a href="/Login" className="btn btn3">
+                                    Masuk
+                                </a>
+                                </li>
                             </ul>
                             </nav>
                         </div>
